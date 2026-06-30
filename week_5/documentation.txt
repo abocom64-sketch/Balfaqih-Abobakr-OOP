@@ -1,0 +1,11 @@
+Ans 1 
+The variables are declared as private to protect the student data.
+This means the data cannot be changed directly from outside the class.
+
+Ans 2 
+Getters are used to read the private variables.
+Setters are used to update the private variables in a controlled way.
+
+Ans 3 
+The studentID should not be changed after the student object is created.
+
