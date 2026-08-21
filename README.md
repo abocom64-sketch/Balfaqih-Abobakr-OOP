@@ -7,8 +7,11 @@
 
 | Field | Details |
 |---|---|
-| Student name | Abobakr Balfaqih |
+| Student name | BALFAQIH ABOBAKR MOHAMMED ABOBAKR |
 | Student ID | 202505010363 |
+| Class code | 202605F0782 |
+| Programme | BCSSE |
+| NRIC / Passport No. | 14213550 |
 | Course | BIT1123 - Object Oriented Programming |
 | Institution | City University Malaysia, Cyberjaya Campus |
 | Assignment | Assignment 1 - Individual (20%) |
@@ -23,14 +26,14 @@ This repository consolidates my Java tutorial work for Weeks 1-10. It documents 
 Balfaqih-Abobakr-OOP/
 |-- README.md
 |-- myreport.pdf
-|-- week_1/       Basic Java and selection statements
-|-- week_2/       Classes, objects, constructors, and methods
-|-- week_3-4/     Inheritance and method overriding
-|-- week_5/       Encapsulation and data validation
-|-- week_6/       Inheritance with employee and lecturer classes
-|-- week_7/       Abstraction and runtime polymorphism
-|-- week_8-9/     Collections, file I/O, and exception handling
-`-- week_10/      Event-driven programming with Java Swing
+|-- week1/        Basic Java and selection statements
+|-- week2/        Classes, objects, constructors, and methods
+|-- week3-4/      Inheritance and method overriding
+|-- week5/        Encapsulation and controlled data access
+|-- week6/        Inheritance with employee and lecturer classes
+|-- week7/        Abstraction and runtime polymorphism
+|-- week8-9/      Collections, file I/O, and exception handling
+`-- week10/       Event-driven programming with Java Swing
 ```
 
 ## Tutorial Summary
@@ -40,11 +43,11 @@ Balfaqih-Abobakr-OOP/
 | 1 | Java fundamentals | Printed output and used conditional statements to calculate a grade. |
 | 2 | Classes and objects | Modelled a student using fields, a constructor, and instance methods. |
 | 3-4 | Inheritance and overriding | Built a `Person` hierarchy and provided specialized introductions. |
-| 5 | Encapsulation | Protected student data with private fields, accessors, and validation. |
+| 5 | Encapsulation | Protected student data with private fields, getters, and setters. |
 | 6 | Inheritance | Reused employee state and behaviour in a lecturer subclass. |
 | 7 | Abstraction and polymorphism | Used an abstract appliance type with several concrete implementations. |
 | 8-9 | Collections and file handling | Collected tasks, saved them to a text file, loaded them, and handled I/O errors. |
-| 10 | GUI and event handling | Built an interactive quiz using Swing components, actions, score tracking, and input validation. |
+| 10 | GUI and event handling | Built a one-question Swing quiz with two answer buttons and immediate feedback. |
 
 ## Technologies Used
 
@@ -61,7 +64,7 @@ Install a JDK and confirm that `java` and `javac` are available. Open a terminal
 For a single-file example:
 
 ```bash
-cd week_1
+cd week1
 javac HelloWorld.java
 java HelloWorld
 ```
@@ -69,7 +72,7 @@ java HelloWorld
 For a multi-file tutorial:
 
 ```bash
-cd week_7
+cd week7
 javac *.java
 java Main
 ```
@@ -77,7 +80,7 @@ java Main
 For the Week 10 graphical quiz:
 
 ```bash
-cd week_10
+cd week10
 javac Questions.java QuizBattleGUI.java
 java QuizBattleGUI
 ```
